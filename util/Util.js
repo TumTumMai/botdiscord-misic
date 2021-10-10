@@ -8,8 +8,8 @@ try {
   config = null;
 }
 
-exports.TOKEN = "ODkzODA0OTgwNjY5MTQxMDMw.YVgywQ.1RJYgZe7bD3_yj0WRC1KEYwWaWs"
-exports.YOUTUBE_API_KEY = "AIzaSyDl0ubZlhzNBCi3OhtW6ZoLXxDh5Uh_xFw"
+exports.TOKEN = ""
+exports.YOUTUBE_API_KEY = ""
 exports.SOUNDCLOUD_CLIENT_ID = config ? config.SOUNDCLOUD_CLIENT_ID : process.env.SOUNDCLOUD_CLIENT_ID;
 exports.PREFIX = (config ? config.PREFIX : process.env.PREFIX) || "/";
 exports.MAX_PLAYLIST_SIZE = (config ? config.MAX_PLAYLIST_SIZE : parseInt(process.env.MAX_PLAYLIST_SIZE)) || 10;
